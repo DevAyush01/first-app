@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Child from './main'
+import File from './component/File';
+// import './style.css';
+// import Component from './Component';
+import A from './A';
+import DynamicDataRender from './DynamicDataRender';
+import GotData from './component/GotData';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* <Component/> */}
+      {/* <A/> */}
+      {/* <DynamicDataRender/> */}
+      <GotData/>
+    </>
+  )
 }
 
 export default App;
